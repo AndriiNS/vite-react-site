@@ -1,0 +1,30 @@
+.download {
+  margin-bottom: 220px;
+}
+.download__content {
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.download__title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: 0.06em;
+  max-width: 527px;
+  margin-bottom: 40px;
+}
+.download__descr {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: -0.04em;
+  color: #7c7c7c;
+  margin-bottom: 65px;
+  max-width: 420px;
+}
+.download__text-box {
+  display: flex;
+  gap: 20px;
+}

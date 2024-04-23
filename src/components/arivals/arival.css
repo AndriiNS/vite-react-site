@@ -1,0 +1,26 @@
+.arival {
+  margin-bottom: 150px;
+}
+.arival__title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0.06em;
+  position: relative;
+  max-width: 405px;
+}
+.arival__title::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  width: 190px;
+  height: 32px;
+  background-image: url(./../../img/icons/for-promo.svg);
+  z-index: -1;
+}
+.arival__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}

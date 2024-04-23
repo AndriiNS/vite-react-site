@@ -1,0 +1,81 @@
+.footer {
+  background-color: #000;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 120px 100px 147px 100px;
+}
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: #fff;
+}
+.footer__title {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+}
+.footer__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #8e8e8e;
+  max-width: 415px;
+}
+.footer__social-list {
+  display: flex;
+  gap: 14px;
+}
+.footer__social-list a {
+  transition: all 0.3s ease 0s;
+}
+.footer__social-list a:hover {
+  scale: 1.1;
+}
+.footer__menu {
+  display: flex;
+  gap: 20px;
+}
+.footer__menu nav {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  width: 270px;
+  gap: 32px;
+}
+.quik__title,
+.legal__title,
+.compani__title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #d9d9d9;
+}
+.footer__menu-compani,
+.footer__menu-quik,
+.Legal__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.Legal__link,
+.quik__link,
+.compani__link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #8e8e8e;
+  transition: all 0.3s ease 0s;
+}
+.Legal__link:hover,
+.quik__link:hover,
+.compani__link:hover {
+  color: #d9d9d9;
+}

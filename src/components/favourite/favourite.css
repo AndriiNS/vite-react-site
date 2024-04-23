@@ -1,0 +1,27 @@
+.favourite__inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+.favourite {
+  margin-bottom: 220px;
+}
+.favourite__title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0.06em;
+  max-width: 540px;
+  position: relative;
+  margin-bottom: 118px;
+}
+.favourite__title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 190px;
+  height: 32px;
+  background-image: url("./../../img/icons/for-promo.svg");
+  z-index: -1;
+}
